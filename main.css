@@ -1,0 +1,101 @@
+body {
+  background: #fff;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+svg {
+  stroke: #000;
+}
+
+.github-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.container {
+  text-align: center;
+}
+
+.container .title {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+#rim {
+  fill: none;
+  stroke: #999;
+  stroke-width: 3px;
+}
+
+.second-hand {
+  stroke-width: 3px;
+  stroke: #710417;
+}
+
+.minute-hand {
+  stroke-width: 8px;
+  stroke: #ad7658;
+  stroke-linecap: round;
+}
+
+.hour-hand {
+  stroke-width: 12px;
+  stroke: #ad7658;
+  stroke-linecap: round;
+}
+
+.hands-cover {
+  stroke-width: 3px;
+  stroke: #710417;
+  fill: #a6222f;
+}
+
+.second-tick {
+  stroke-width: 1px;
+  fill: #ccc;
+}
+
+.hour-tick {
+  stroke-width: 6px;
+  stroke: #ef9f70;
+  stroke-linecap: round;
+}
+
+.second-label {
+  font-size: 10px;
+  stroke: #999;
+}
+
+.hour-label {
+  font-size: 20px;
+  stroke: #ccc;
+}
+
+.line {
+    fill: none;
+    stroke: #ffab00;
+    stroke-width: 3;
+}
+  
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+/* Style the dots by assigning a fill and stroke */
+.dot {
+    fill: #ffab00;
+    stroke: #fff;
+}
+  
+  .focus circle {
+  fill: none;
+  stroke: steelblue;
+}
+
+#chart {
+  margin-left:50px;
+  height: 446px;
+  width: 446px;
+  float: left;
+}
